@@ -13,3 +13,5 @@ group_imports="StdExternalCrate"
 ignore = [
     "examples",
 ]
+# length
+max_width = 80
