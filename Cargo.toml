@@ -2,8 +2,6 @@
 name = "{{project-name}}"
 version = "0.1.0"
 edition = "2021"
-version = "0.1.0"
-edition = "2021"
 authors = ["{{authors}}"]
 
 [dependencies]
