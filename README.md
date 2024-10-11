@@ -1,4 +1,4 @@
-![](https://github.com/vainjoker/rust-template/workflows/build/badge.svg)
+[![Build](https://github.com/{{ username }}/{{ project-name }}/actions/workflows/integration.yml/badge.svg)](https://github.com/{{ username }}/{{ project-name }}/actions/workflows/integration.yml)
 
 # {{ project-name }}
 

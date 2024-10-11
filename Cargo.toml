@@ -5,10 +5,7 @@ edition = "2021"
 authors = ["{{authors}}"]
 readme = "README.md"
 license = "GPL-3.0"
-exclude = [".github", "Makefile.toml", "CHANGELOG.md"]
-repository = "{{git_repository}}"
-homepage = "{{git_repository}}"
-description = "{{description}}"
+exclude = [".github", "CHANGELOG.md"]
 
 [dependencies]
 
