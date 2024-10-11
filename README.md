@@ -1,4 +1,4 @@
-[![Build](https://github.com/{{ username }}/{{ project-name }}/actions/workflows/integration.yml/badge.svg)](https://github.com/{{ username }}/{{ project-name }}/actions/workflows/integration.yml)
+[![Build](https://github.com/{{ git-user-name }}/{{ git-repository-name }}/actions/workflows/integration.yml/badge.svg)](https://github.com/{{ git-user-name }}/{{ git-repository-name }}/actions/workflows/integration.yml)
 
 # {{ project-name }}
 
