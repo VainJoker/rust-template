@@ -8,6 +8,11 @@ license = "GPL-3.0"
 exclude = [".github", "CHANGELOG.md"]
 
 [dependencies]
+thiserror = "1.0"
+anyhow = "1.0"
+
+[dev-dependencies]
+
 
 [lints.rust]
 unsafe_code = "forbid"
