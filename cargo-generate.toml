@@ -1,0 +1,3 @@
+[placeholders]
+git_repository = { prompt = "Enter git repository", default = "https://github.com/{{authors}}/{{crate_name}}", type = "string" }
+description = { prompt = "Enter description", default = "", type = "string" }

@@ -5,11 +5,10 @@ edition = "2021"
 authors = ["{{authors}}"]
 readme = "README.md"
 license = "GPL-3.0"
-exclude = [
-  ".github",
-  "Makefile.toml",
-  "CHANGELOG.md",
-]
+exclude = [".github", "Makefile.toml", "CHANGELOG.md"]
+repository = "{{git_repository}}"
+homepage = "{{git_repository}}"
+description = "{{description}}"
 
 [dependencies]
 
@@ -27,7 +26,6 @@ module_name_repetitions = "allow"
 must_use_candidate = "allow"
 wildcard_imports = "allow"
 module_inception = "allow"
-# nursery or restricted
 as_underscore = "warn"
 deref_by_slicing = "warn"
 else_if_without_else = "warn"
@@ -48,15 +46,20 @@ use_self = "warn"
 [profile.release]
 strip = true
 
-# The profile that 'cargo dist' will build with
 [profile.dist]
 inherits = "release"
 lto = "thin"
+
 [workspace.metadata.dist]
 allow-dirty = ["ci", "msi"]
 cargo-dist-version = "0.12.0"
 ci = ["github"]
 installers = ["shell"]
-targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-pc-windows-msvc"]
+targets = [
+  "aarch64-apple-darwin",
+  "x86_64-apple-darwin",
+  "x86_64-unknown-linux-gnu",
+  "x86_64-pc-windows-msvc",
+]
 pr-run-mode = "plan"
 install-updater = false
