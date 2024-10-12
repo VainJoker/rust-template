@@ -6,3 +6,4 @@ exclude = ["revise.toml"]
 [placeholders]
 git-user-name = { prompt = "Enter git username", type = "string" }
 git-repository-name = { prompt = "Enter git repository", type = "string" }
+crate-description = { prompt = "Enter crate description", type = "string" }
