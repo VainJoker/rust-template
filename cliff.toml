@@ -47,7 +47,7 @@ footer = """
 trim = true
 # postprocessors
 postprocessors = [
-  { pattern = '<REPO>', replace = "{{ github_url }}" },
+  { pattern = '<REPO>', replace = "{{ github-repository }}" },
 ]
 
 [git]
