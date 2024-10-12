@@ -4,4 +4,4 @@ github-repository = { prompt = "Enter github repository", type = "string" }
 crate-description = { prompt = "Enter crate description", type = "string" }
 
 [template]
-include = ["Cargo.toml", "README.md", "src/"]
+include = ["Cargo.toml", "README.md", "src/", "generate/"]
