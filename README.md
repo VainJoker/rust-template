@@ -1,6 +1,6 @@
-[![Build](https://github.com/vainjoker/axum-example/actions/workflows/integration.yml/badge.svg)](https://github.com/vainjoker/axum-example/actions/workflows/integration.yml)
+[![Build](https://github.com/{{github-username}}/{{github-repository}}/actions/workflows/integration.yml/badge.svg)](https://github.com/{{github-username}}/{{github-repository}}/actions/workflows/integration.yml)
 
-# axum-example
+# {{project-name}}
 
 description about the crate
 
@@ -9,6 +9,16 @@ description about the crate
 ```bash
 $ cargo generate --git https://github.com/vainjoker/rust-template
 ```
+
+### Dependencies
+
+- gh-cli(https://cli.github.com/)
+- git-cliff(https://github.com/orhun/git-cliff)
+- typos(https://github.com/crate-ci/typos)
+- release-plz(https://github.com/MarcoIeni/release-plz)
+- codecov(https://about.codecov.io/)
+- mergify(https://mergify.com/)
+
 
 Have fun with this crate!
 
