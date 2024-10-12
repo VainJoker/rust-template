@@ -4,6 +4,6 @@ include = ["README.md", "Cargo.toml", "cliff.toml", "src/"]
 exclude = ["revise.toml"]
 
 [placeholders]
-git-user-name = { prompt = "Enter git username", type = "string" }
-git-repository-name = { prompt = "Enter git repository", type = "string" }
+github-username = { prompt = "Enter git username", type = "string" }
+github-repository = { prompt = "Enter git repository", type = "string" }
 crate-description = { prompt = "Enter crate description", type = "string" }
