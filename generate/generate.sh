@@ -16,7 +16,7 @@ if command -v xdg-open &> /dev/null; then
 elif command -v open &> /dev/null; then
     open "$codecov_url"
 else
-    echo "Please visit $codecov_url to set up Codecov"
+    echo "Please visit $codecov_url to set up Codecov and copy the token to the github repository settings."
 fi
 
 # Link Mergify
@@ -26,5 +26,5 @@ if command -v xdg-open &> /dev/null; then
 elif command -v open &> /dev/null; then
     open "$mergify_url"
 else
-    echo "Please visit $mergify_url to set up Mergify"
+    echo "Please visit $mergify_url to set up Mergify and active the workflow."
 fi
