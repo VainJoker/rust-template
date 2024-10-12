@@ -1,7 +1,7 @@
 # # configuration for https://github.com/orhun/git-cliff
 
 [template]
-url = "{{github-repository}}"
+url = "https://github.com/{{github-username}}/{{github-repository}}"
 # [changelog]
 # # changelog header
 # header = """
