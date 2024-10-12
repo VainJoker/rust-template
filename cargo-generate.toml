@@ -1,8 +1,7 @@
-[template]
-include = ["README.md", "Cargo.toml", "cliff.toml", "src/"]
-# exclude = ["revise.toml"]
-
 [placeholders]
 github-username = { prompt = "Enter git username", type = "string" }
 github-repository = { prompt = "Enter git repository", type = "string" }
 crate-description = { prompt = "Enter crate description", type = "string" }
+
+[template]
+include = ["Cargo.toml", "cliff.toml", "src/"]
