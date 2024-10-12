@@ -9,8 +9,6 @@ release-plz init
 
 # Generate Codecov token and open settings page
 $codecov_url = "https://app.codecov.io/github/{{github-username}}/{{github-repository}}/settings/"
-Write-Host "Press Enter when you're ready to set up Codecov..."
-Read-Host
 Start-Process $codecov_url
 
 Write-Host "Please complete the Codecov setup in the opened browser window."
@@ -18,9 +16,7 @@ Write-Host "Press Enter when you've finished setting up Codecov..."
 Read-Host
 
 # Link Mergify
-$mergify_url = "https://dashboard.mergify.com/integrations/github?repository={{github-username}}/{{github-repository}}&login={{github-username}}"
-Write-Host "Press Enter when you're ready to set up Mergify..."
-Read-Host
+$mergify_url = "https://dashboard.mergify.com/workflow-automation?repository={{github-repository}}&login={{github-username}}"
 Start-Process $mergify_url
 
 Write-Host "Please complete the Mergify setup in the opened browser window."
