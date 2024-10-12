@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace {{ github-repository-placeholder }} with {{github-repository}} in cliff.toml
-sed -i '' 's/{{github-repository-placeholder}}/https:\/\/github.com\/{{github-username}}\/{{github-repository}}/g' cliff.toml
+sed -i '' 's/<<github-repository-placeholder>>/https:\/\/github.com\/{{github-username}}\/{{github-repository}}/g' cliff.toml
 
 # Create remote repository and link it to local repository
 gh repo create {{github-username}}/{{github-repository}} --public

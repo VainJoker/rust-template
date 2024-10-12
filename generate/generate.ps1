@@ -1,5 +1,5 @@
 # Replace {{github-repository-placeholder}} with {{github-repository}} in cliff.toml
-(Get-Content -Path cliff.toml) -replace '{{github-repository-placeholder}}', 'https://github.com/{{github-username}}/{{github-repository}}' | Set-Content -Path cliff.toml
+(Get-Content -Path cliff.toml) -replace '<<github-repository-placeholder>>', 'https://github.com/{{github-username}}/{{github-repository}}' | Set-Content -Path cliff.toml
 
 # Create remote repository and link it to local repository
 gh repo create {{github-username}}/{{github-repository}} --public
