@@ -1,5 +1,3 @@
-[![Build](https://github.com/{{github-username}}/{{github-repository}}/actions/workflows/integration.yml/badge.svg)](https://github.com/{{github-username}}/{{github-repository}}/actions/workflows/integration.yml)
-
 # {{project-name}}
 
 description about the crate

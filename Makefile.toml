@@ -85,8 +85,6 @@ install_crate = { crate_name = "git-cliff", binary = "git-cliff", test_arg = "--
 command = "git"
 args = [
   "cliff",
-  "--github-repo",
-  "https://github.com/{{github-username}}/{{github-repository}}",
   "-o",
   "CHANGELOG.md",
 ]

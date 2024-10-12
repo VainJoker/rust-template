@@ -1,5 +1,6 @@
 [placeholders]
-repository = { prompt = "Enter github repository", type = "string" }
+github-username = { prompt = "Enter github username", type = "string" }
+github-repository = { prompt = "Enter github repository", type = "string" }
 crate-description = { prompt = "Enter crate description", type = "string" }
 
 [template]
