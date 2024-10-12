@@ -1,6 +1,6 @@
 # configuration for https://github.com/orhun/git-cliff
 
-{{ github-repository }}
+{{github-repository}}
 
 [changelog]
 # changelog header
@@ -49,7 +49,7 @@ footer = """
 trim = true
 # postprocessors
 postprocessors = [
-  { pattern = '<REPO>', replace = "{{ github-repository }}" },
+  { pattern = '<REPO>', replace = "{{github-repository}}" },
 ]
 
 [git]
