@@ -28,3 +28,9 @@ elif command -v open &> /dev/null; then
 else
     echo "Please visit $mergify_url to set up Mergify and active the workflow."
 fi
+
+# 删除 generate 文件夹
+cd ..
+rm -rf generate
+
+echo "Setup process completed and generate folder has been removed."

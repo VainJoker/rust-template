@@ -24,3 +24,8 @@ Write-Host "Press Enter when you've finished setting up Mergify..."
 Read-Host
 
 Write-Host "Setup process completed."
+
+# 删除 generate 文件
+Remove-Item $MyInvocation.MyCommand.Path
+
+Write-Host "The generate script has been removed."
