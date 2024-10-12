@@ -1,2 +1,0 @@
-[template]
-url = "https://github.com/{{github-username}}/{{github-repository}}"
