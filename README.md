@@ -1,6 +1,6 @@
-[![Build](https://github.com/{{ git-user-name }}/{{ git-repository-name }}/actions/workflows/integration.yml/badge.svg)](https://github.com/{{ git-user-name }}/{{ git-repository-name }}/actions/workflows/integration.yml)
+[![Build](https://github.com/vainjoker/axum-example/actions/workflows/integration.yml/badge.svg)](https://github.com/vainjoker/axum-example/actions/workflows/integration.yml)
 
-# {{ project-name }}
+# axum-example
 
 description about the crate
 

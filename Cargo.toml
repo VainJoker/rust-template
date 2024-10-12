@@ -56,7 +56,7 @@ lto = "thin"
 [workspace.metadata.dist]
 allow-dirty = ["ci", "msi"]
 cargo-dist-version = "0.22.1"
-ci = "github"
+ci = ["github"]
 installers = ["shell"]
 targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-pc-windows-msvc"]
 pr-run-mode = "plan"

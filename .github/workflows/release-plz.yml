@@ -1,4 +1,8 @@
-name: Continuous Deployment
+name: Release Plz
+
+permissions:
+  pull-requests: write
+  contents: write
 
 on:
   push:
@@ -9,16 +13,16 @@ jobs:
   release-plz:
     name: Release-plz
     runs-on: ubuntu-latest
+    concurrency:
+      group: release-plz-${{ github.ref }}
+      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.RELEASE_PLZ_TOKEN }}
-
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-
       - name: Run release-plz
         uses: MarcoIeni/release-plz-action@v0.5
         env:
