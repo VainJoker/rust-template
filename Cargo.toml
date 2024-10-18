@@ -13,6 +13,7 @@ description = "{{crate-description}}"
 [dependencies]
 thiserror = "1.0"
 anyhow = "1.0"
+itertools = { version = "0.13.0" }
 
 [dev-dependencies]
 
