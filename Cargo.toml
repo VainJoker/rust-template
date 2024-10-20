@@ -12,11 +12,12 @@ description = "{{crate-description}}"
 
 [dependencies]
 thiserror = "1.0"
-anyhow = "1.0"
-itertools = { version = "0.13.0" }
+itertools = "0.13"
 
 [dev-dependencies]
-
+anyhow = "1.0"
+divan = "0.1.14"
+pretty_assertions = "1.4"
 
 [lints.rust]
 unsafe_code = "forbid"
