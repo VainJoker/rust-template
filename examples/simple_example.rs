@@ -1,5 +1,5 @@
 use {{project-name}}::prelude::*;
 
-fn main(){
-	print_hello();
+fn main() {
+    print_hello();
 }
