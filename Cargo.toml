@@ -12,7 +12,7 @@ description = "{{crate-description}}"
 
 [dependencies]
 thiserror = "1.0"
-itertools = "0.13"
+itertools = "0.14"
 
 [dev-dependencies]
 anyhow = "1.0"
